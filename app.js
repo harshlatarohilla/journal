@@ -55,4 +55,8 @@ app.get("/posts/:name", (req, res) => {
   });
 });
 
-module.exports=app;
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
+
+// module.exports = app;
